@@ -2,7 +2,10 @@
   "name": "backups-bot",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Androz2091 <androz2091@gmail.com>",
+  "scripts": {
+  "start": "node index.js"
+  },
+  "author": "DuckyHD",
   "license": "MIT",
   "dependencies": {
     "discord-backup": "^2.3.0",
