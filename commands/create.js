@@ -10,7 +10,7 @@ exports.run = async (client, message, args) => {
 
     backup.create(message.guild).then((backupData) => {
 
-        return message.channel.send('Backup created! Here is your ID: `'+backupData.id+'`! Use `'+process.env.PREFIX+'load '+backupData.id+'` to load the backup on another server!');
+        return message.channel.send('Backup created! Here is your ID: `'+backupData.id+'`! Use `'+config.prefix+'load '+backupData.id+'` to load the backup on another server!');
 
     }).catch(() => {
 
